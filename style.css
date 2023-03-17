@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px red solid; */
+    font-family: "League Spartan", "Poppins", "Outfit", sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.outerbody {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/775086.png");
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.innerbody {
+    width: 80%;
+    height: 95%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.sideBar {
+    background-color: rgb(30, 18, 41);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.sideBar h1 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin: 20px;
+    width: fit-content;
+}
+
+.firstSpan {
+    color: rgb(142, 142, 142);
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: fit-content;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+li {
+    padding: 12px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(195, 195, 195);
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+li:hover {
+    background-color: whitesmoke;
+    width: fit-content;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.active {
+    font-weight: 600;
+    color: rgb(30, 18, 41);
+    font-size: 15px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.dash {
+    width: 100%;
+    height: 1.5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.secondSpan {
+    color: rgb(142, 142, 142);
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    width: fit-content;
+}
