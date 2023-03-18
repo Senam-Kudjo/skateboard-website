@@ -147,6 +147,26 @@ input {
     color: rgb(50, 64, 64);
 }
 
+#bulbContainer {
+    box-shadow: 2px 3.5px silver;
+    background-color: rgb(237, 237, 237);
+    width: 40px;
+    height: 20px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#bulb {
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 .discoverPage {
     align-items: center;
     display: flex;
